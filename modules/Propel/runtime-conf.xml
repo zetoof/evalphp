@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <log>
+    <type>file</type>
+    <level>7</level>
+    <name>./propel.log</name>
+  </log>
+  <propel>
+    <datasources default="propel">
+      <datasource id="propel">
+        <adapter>mysql</adapter>
+        <connection>
+          <classname>DebugPDO</classname>
+          <dsn>mysql:host=localhost;dbname=propel</dsn>
+          <user>root</user>
+          <password>ks164gb</password>
+          <settings>
+            <setting id="charset">utf8</setting>
+          </settings>
+        </connection>
+      </datasource>
+    </datasources>
+  </propel>
+</config>

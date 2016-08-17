@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native">
+	<table name="formations" phpName="Formations">
+		<column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+		<column name="nom" type="varchar" size="255" required="true" />
+		<column name="description" type="longvarchar" required="true" />
+	</table>
+	<table name="sessions" phpName="Sessions">
+		<column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+		<column name="nom" type="varchar" size="255" required="true" />
+		<column name="description" type="longvarchar" required="true" />
+		<column name="date" type="date" required="true" />
+		<column name="formation" type="integer" required="true" />
+		<foreign-key foreignTable="formations">
+			<reference local="formation" foreign="id"/>
+		</foreign-key>
+	</table>
+</database>
