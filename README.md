@@ -14,7 +14,7 @@ Ce Repository contient tout le nécessaire pour effectuer l'évaluation PHP
 
 Le but de cet exercice est d'afficher l'objet JSON contenant les données récupérées depuis la base de donnée
 
-Remplacer les commentaires @TODO se trouvant dans les fichiers suivants pour faire fonctionner le code
-       * /index.php
-       * /modules/Controller.php (2 points à traiter)
-       * /modules/Repository.php (2 points à traiter)
+1. Remplacer les commentaires @TODO se trouvant dans les fichiers suivants pour faire fonctionner le code
+      * /index.php
+      * /modules/Controller.php (2 points à traiter)
+      * /modules/Repository.php (2 points à traiter)
