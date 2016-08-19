@@ -1,0 +1,10 @@
+# Files
+.gitignore
+composer.json
+composer.lock
+composer.phar
+propel.log
+
+# Folders
+SQL/
+vendor/
