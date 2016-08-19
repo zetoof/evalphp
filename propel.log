@@ -1,0 +1,24 @@
+Aug 17 15:31:37 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 15:31:38 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 15:34:07 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 15:34:08 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 15:34:09 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 15:34:09 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 15:34:09 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 15:34:09 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 15:34:09 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 15:34:19 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 15:34:26 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 15:54:02 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 16:12:42 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 16:15:15 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 16:15:22 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 16:17:15 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 16:29:20 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 16:29:20 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 16:29:36 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id=1
+Aug 17 16:32:02 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id='2'
+Aug 17 16:32:18 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations`
+Aug 17 16:32:44 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations`
+Aug 17 16:32:51 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id='1'
+Aug 17 16:32:54 propel [debug] SELECT formations.id, formations.nom, formations.description FROM `formations` WHERE formations.id='2'
