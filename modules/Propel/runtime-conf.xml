@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-  <log>
-    <type>file</type>
-    <level>7</level>
-    <name>./propel.log</name>
-  </log>
   <propel>
     <datasources default="propel">
       <datasource id="propel">
