@@ -29,6 +29,7 @@
      * issues des méthodes "getAll()" et "get()" de la classe Controller sous forme de JSON.
      *
      */
+    $app->get('/get/{id}', "controller:get");
     $app->get('/get', "controller:getAll");
 
 
