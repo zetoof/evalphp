@@ -25,8 +25,7 @@
              * à retourner dans la variable $formation (sous forme de tableau via la requête Propel).
              *
              */
-
-            return $formation;
+			return FormationsQuery::create()->findPk($id);
         }
 
     }
