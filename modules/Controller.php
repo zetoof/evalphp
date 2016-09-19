@@ -24,7 +24,7 @@
 
         public function getAll() {
 			$rep = new Repository();
-			$data = $rep->getAll();
+			$data = $rep->getAll()->toArray();
             if (!$data) {
                 $this->app->abort(204, "No content for this request");
             }
@@ -32,16 +32,8 @@
         }
 
         public function get($id = null) {
-            /**
-             * @TODO
-             *
-             * 1. Appeler la methode "get" de la classe "Repository" en passant l'ID de la formation à récupérer
-             * 2. Renseigner la variable $data avec les données reçus
-             *
-             */
-
 			$rep = new Repository();
-			$data = $rep->get($id);
+			$data = $rep->get($id)->toArray();
             if (!$data) {
                 $this->app->abort(204, "No content for this request");
             }
