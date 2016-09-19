@@ -20,6 +20,7 @@
     // Default requests
     $app->get('/', "controller:homePage");
 
+
     // GET request
     /**
      * @TODO
@@ -28,6 +29,8 @@
      * issues des méthodes "getAll()" et "get()" de la classe Controller sous forme de JSON.
      *
      */
+    $app->get('/get', "controller:getAll");
+
 
     $app->error(function (\Exception $e, $code) {
         switch ($code) {
