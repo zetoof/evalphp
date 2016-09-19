@@ -40,7 +40,8 @@
              *
              */
 
-			$data = "get(".$id.")";
+			$rep = new Repository();
+			$data = $rep->get($id);
             if (!$data) {
                 $this->app->abort(204, "No content for this request");
             }
