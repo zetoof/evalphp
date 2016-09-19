@@ -22,13 +22,6 @@
 
 
     // GET request
-    /**
-     * @TODO
-     *
-     * Créer les routes SIlex pour cibler les URLs "/get" et "/get/ID_de_la_formation" qui vont afficher les résultats
-     * issues des méthodes "getAll()" et "get()" de la classe Controller sous forme de JSON.
-     *
-     */
     $app->get('/get/{id}', "controller:get");
     $app->get('/get', "controller:getAll");
 
