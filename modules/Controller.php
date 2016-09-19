@@ -7,6 +7,8 @@
     use Symfony\Component\HttpFoundation\Response;
     use Symfony\Component\HttpFoundation\JsonResponse;
 
+	use Mods\Repository;
+	
     class Controller {
 
         private $app = null;
@@ -21,14 +23,8 @@
         }
 
         public function getAll() {
-            /**
-             * @TODO
-             *
-             * 1. Appeler la methode "getAll" de la classe "Repository"
-             * 2. Renseigner la variable $data avec les données reçus
-             *
-             */
-
+			$rep = new Repository();
+			$data = $rep->getAll();
             if (!$data) {
                 $this->app->abort(204, "No content for this request");
             }
@@ -44,6 +40,7 @@
              *
              */
 
+			$data = "get(".$id.")";
             if (!$data) {
                 $this->app->abort(204, "No content for this request");
             }
